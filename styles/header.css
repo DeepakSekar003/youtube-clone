@@ -1,4 +1,5 @@
 .header{
+  
   height:55px;
   display:flex;
   flex-direction: row;
@@ -8,7 +9,6 @@
   left:0;
   right:0;
   z-index:100;
-
   background-color: white;
   border-bottom-width:1px;
   border-bottom-style:solid;
@@ -30,6 +30,15 @@
   align-items: center;
  
 }
+
+.right-section{
+  margin-right:20px;
+  width:180px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
 .search-button{
   height:39px;
   width:66px;
@@ -47,18 +56,14 @@
  .youtube-icon-container,
  .notification-icon-container{
   display:flex;
-  position:relative;
   justify-content:center;
   align-items:center;
-  position:relative;
  }
 .search-button .tooltip,
 .voice-search .tooltip,
 .uplod-icon-container .tooltip,
 .youtube-icon-container .tooltip,
  .notification-icon-container .tooltip{
-
-  font-family: Roboto,arial;
   position:absolute;
   background-color:grey;
   color:white;
@@ -111,14 +116,7 @@
   padding-left: 10px;
 }
 
-.right-section{
-  margin-right:20px;
-  width:180px;
-  display:flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-shrink: 0;
-}
+
 .hanburger-menu{
   height: 24px;
   margin-right: 24px;
